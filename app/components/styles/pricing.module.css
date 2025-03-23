@@ -1,0 +1,117 @@
+.pricing {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 3em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.pricingCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Dodano odstęp między kartami */
+}
+
+.pricingCard {
+    width: 30%;
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    color: #fff;
+
+    background: rgb(19,216,225);
+    background: linear-gradient(180deg, rgba(19,216,225,1) 0%, rgba(247,185,209,1) 100%);
+}
+
+.pricingCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.price {
+    font-size: 3.5em;
+    font-weight: 700;
+    padding: 30px 0 10px;
+}
+
+.per {
+    font-size: 1.2em;
+    color: #555;
+    padding-bottom: 20px;
+}
+
+.pricingCard h3 {
+    font-size: 1.8em;
+    margin: 25px 0;
+}
+
+.pricingCard ul {
+    list-style: none;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.pricingCard li {
+    font-size: 1.1em;
+    line-height: 1.8;
+    position: relative;
+    padding-left: 25px;
+}
+
+.pricingCard li::before {
+    content: '✓'; /* Znak zaznaczenia */
+    position: absolute;
+    left: 0;
+    color: #000;
+}
+
+.buttonContainer {
+    text-align: center;
+    margin-top: 30px; /* Dodano odstęp od listy */
+}
+
+.callButton {
+    display: inline-block;
+    width: 80%;
+    padding: 15px 0;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border: none; /* Usunięto obramowanie przycisku */
+    cursor: pointer; /* Dodano kursor wskazujący */
+}
+
+.callButton:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 1300px) {
+    .pricing h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 866px) {
+    .pricingCards {
+        flex-direction: column;
+    }
+
+    .pricingCard {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
