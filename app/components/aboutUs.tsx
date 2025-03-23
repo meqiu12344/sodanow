@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles/aboutUs.module.css';
-import about_us from '../../public/about-us.png';
-import how_to_change from '../../public/how-to-change.png'
+import about_us from '../../public/about-us.webp';
+import how_to_change from '../../public/how-to-change.webp'
 import Image from 'next/image'
 
 const aboutUs = () => {
@@ -9,7 +9,7 @@ const aboutUs = () => {
 <section className={styles.about_us}>
     <div className={styles.about_us_content} id="aboutUs">
         <div className={styles.image}>
-            <Image src={about_us.src} alt="" />
+            <Image src={about_us.src} alt="Sutorator sodastream - sodanow" />
         </div>
         <div className={styles.text}>
             <h2>Kim jesteśmy?</h2>
@@ -18,7 +18,7 @@ const aboutUs = () => {
     </div>
     <div className={styles.how_to_replace} id="howToReplace">
         <div className={styles.image}>
-            <Image src={how_to_change.src} alt="" />
+            <Image src={how_to_change.src} alt="Kobieta z butelko sodastream" />
         </div>
         <div className={styles.text}>
             <h2>Jak wymienić butle?</h2>

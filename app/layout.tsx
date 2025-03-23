@@ -2,8 +2,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'My Next App',
-  description: 'Aplikacja Next.js 13 z App Router',
+  title: 'SodaNow',
+  description: 'SodaNow - Wymiana butli CO2',
 };
 
 export default function RootLayout({
