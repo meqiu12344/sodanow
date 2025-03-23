@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './styles/header.module.css';
-import logo from '../../public/logo.png';
+import logo from '../../public/logo.webp';
 import Image from 'next/image'
 
 const Header = () => {
