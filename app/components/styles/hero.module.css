@@ -12,6 +12,13 @@
     max-width: 500px;
 }
 
+.top_hero_text {
+    color: #969696;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
 .hero h1 {
     font-size: 2.5em;
     margin-bottom: 20px;

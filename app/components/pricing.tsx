@@ -7,44 +7,44 @@ const Pricing = () => {
             <h2>Ile to kosztuje?</h2>
             <div className={styles.pricingCards}>
                 <div className={styles.pricingCard}>
-                    <div className={styles.price}>30 PLN</div>
+                    <div className={styles.price}>25 PLN</div>
                     <div className={styles.per}>Za butelkę</div>
                     <h3>Pakiet Standard</h3>
                     <ul>
                         <li>Wymiana butli CO2 z dostawą do domu w ciągu 24-48 godzin</li>
                         <li>Bezpłatny odbiór pustych butli</li>
-                        <li>Możliwość płatności gotówką lub kartą przy odbiorze</li>
+                        <li>Możliwość płatności gotówką przy odbiorze</li>
                     </ul>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.callButton}>ZADZWOŃ</button>
+                        <a href="tel:607877035" className={styles.callButton}>ZADZWOŃ</a>
                     </div>
                 </div>
                 <div className={styles.pricingCard}>
-                    <div className={styles.price}>60 PLN</div>
-                    <div className={styles.per}>Przy zakupie 3</div>
-                    <h3>Pakiet 2 + 1</h3>
+                    <div className={styles.price}>125 PLN</div>
+                    <div className={styles.per}>Przy zakupie 5 butli</div>
+                    <h3>Pakiet 5 + 1</h3>
                     <ul>
-                        <li>Zamów 2 butle CO2, a trzecią otrzymasz gratis!</li>
+                        <li>Zamów 5 butle CO2, a szóstą otrzymasz gratis!</li>
                         <li>Bezpłatny odbiór pustych butli</li>
-                        <li>Możliwość płatności online, gotówką lub kartą przy odbiorze</li>
+                        <li>Możliwość płatności gotówką przy odbiorze</li>
                         <li>Dodatkowy rabat 10% na kolejne zamówienie</li>
                     </ul>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.callButton}>ZADZWOŃ</button>
+                        <a href="tel:607877035" className={styles.callButton}>ZADZWOŃ</a>
                     </div>
                 </div>
                 <div className={styles.pricingCard}>
-                    <div className={styles.price}>120 PLN</div>
-                    <div className={styles.per}>Za miesiąc</div>
-                    <h3>Pakiet Subskrypcja</h3>
+                    <div className={styles.price}>75 PLN</div>
+                    <div className={styles.per}>Przy zakupie 4 butli</div>
+                    <h3>Pakiet 3 + 1</h3>
                     <ul>
-                        <li>Regularna wymiana butli CO2 co dwa tygodnie</li>
+                        <li>Zamów 3 butle CO2, a czwartą otrzymasz gratis!</li>
                         <li>Bezpłatny odbiór pustych butli</li>
-                        <li>Możliwość płatności automatycznej online</li>
-                        <li>Dodatkowo: bezpłatna dostawa</li>
+                        <li>Możliwość płatności gotówką przy odbiorze</li>
+                        <li>Dodatkowy rabat 10% na kolejne zamówienie</li>
                     </ul>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.callButton}>ZADZWOŃ</button>
+                        <a href="tel:607877035" className={styles.callButton}>ZADZWOŃ</a>
                     </div>
                 </div>
             </div>

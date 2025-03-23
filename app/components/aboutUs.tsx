@@ -22,14 +22,20 @@ const aboutUs = () => {
                 </div>
                 <div className={styles.text}>
                     <h2>Jak wymienić butle?</h2>
-                    <p>Wymiana butli CO2 w 4 prostych krokach:</p>
-                    <ol>
-                        <li><b>Kontakt:</b> Zadzwoń lub napisz do nas.</li>
-                        <li><b>Zamówienie:</b> Określ liczbę butli i wybierz termin dostawy.</li>
-                        <li><b>Dostawa/Odbiór:</b> Kurier wymieni puste butle na pełne.</li>
-                        <li><b>Płatność:</b> Zapłać gotówką przy odbiorze.</li>
-                    </ol>
-                    <p>Szybko, wygodnie i bez wychodzenia z domu!</p>
+                    <p>
+                        Wymień butlę szybko i bez wychodzenia z domu! Oferujemy dostawę już na drugi dzień.  <br /><br />
+
+                        📌 <b>Jak to działa?</b> <br />
+                        <ol>
+                            <li>✔️ Podaj adres, liczbę butli oraz ich kolor (<b>niebieski lub różowy – to ważne, bo mają różne gwinty!</b>) </li>
+                            <li>✔️ Wybierz przedział godzinowy dostawy  </li>
+                            <li>✔️ Wieczorem otrzymasz dokładną godzinę – jeśli podasz np. <b>15:00–20:00</b>, a dostawa będzie o <b>17:00</b>, spodziewaj się jej między <b>16:30 a 17:30</b></li>
+                        </ol>
+                         
+                        🛠️ <b>Używamy wyłącznie gazu spożywczego</b> i wymieniamy butle nie tylko do SodaStream, ale także do innych saturatorów.
+
+                        Ciesz się gazowaną wodą bez wychodzenia z domu! 🥤✨
+                    </p>
                 </div>
             </div>
         </section>

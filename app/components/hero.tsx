@@ -7,6 +7,7 @@ const hero = () => {
   return (
     <section className={style.hero}>
         <div className={style.hero_content}>
+            <span className={style.top_hero_text}>Firma zajmująca się wymianą butli we wrocławiu z dojazdem !!</span>
             <h1>Wymiana butli CO<sub>2</sub> do saturatorów wody  <br /> Szybko, łatwo, wygodnie!</h1>
             <p>Jesteśmy Twoim lokalnym punktem wymiany butli CO<sub>2</sub> do wszystkich saturatorów wody. Zapewniamy szybką i wygodną wymianę pustych butli na pełne, abyś mógł cieszyć się ulubionym napojem gazowanym bez zbędnych przestojów.</p>
         </div>
