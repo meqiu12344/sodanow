@@ -28,7 +28,7 @@ const hero = () => {
                     style={{ transition: '0.3s' }}
                 />
             </svg>
-            <img src={hero_image.src} alt="Butelki Soda Now" />
+            <Image src={hero_image.src} alt="Butelki Soda Now" />
         </div>
     </section>
   )
