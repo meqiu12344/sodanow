@@ -54,7 +54,7 @@ const PopUpForm: React.FC = () => {
               borderRadius: '8px',
               maxWidth: '500px',
               width: '90%',
-              position: 'relative', // Dodano, aby móc pozycjonować przycisk zamknięcia
+              position: 'relative',
             }}
           >
             <button
@@ -73,23 +73,107 @@ const PopUpForm: React.FC = () => {
             </button>
             <h1>Pomóż nam się rozwijać</h1>
             <p>Skąd dowiedziałeś się o naszej firmie?</p>
-            <div className="buttons">
-              <button data-value="znajomy" onClick={() => handleButtonClick('znajomy')}>
+            <div className="buttons" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' }}>
+              <button
+                data-value="znajomy"
+                onClick={() => handleButtonClick('znajomy')}
+                style={{
+                  padding: '10px 15px',
+                  borderRadius: '5px',
+                  border: '1px solid #ccc',
+                  backgroundColor: '#f0f0f0',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '5px',
+                }}
+              >
                 <i className="bi bi-people-fill"></i> Od znajomego
               </button>
-              <button data-value="facebook" onClick={() => handleButtonClick('facebook')}>
+              <button
+                data-value="facebook"
+                onClick={() => handleButtonClick('facebook')}
+                style={{
+                  padding: '10px 15px',
+                  borderRadius: '5px',
+                  border: '1px solid #ccc',
+                  backgroundColor: '#f0f0f0',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '5px',
+                }}
+              >
                 <i className="bi bi-facebook"></i> Z Facebooka
               </button>
-              <button data-value="instagram" onClick={() => handleButtonClick('instagram')}>
+              <button
+                data-value="instagram"
+                onClick={() => handleButtonClick('instagram')}
+                style={{
+                  padding: '10px 15px',
+                  borderRadius: '5px',
+                  border: '1px solid #ccc',
+                  backgroundColor: '#f0f0f0',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '5px',
+                }}
+              >
                 <i className="bi bi-instagram"></i> Z Instagrama
               </button>
-              <button data-value="reklama" onClick={() => handleButtonClick('reklama')}>
+              <button
+                data-value="reklama"
+                onClick={() => handleButtonClick('reklama')}
+                style={{
+                  padding: '10px 15px',
+                  borderRadius: '5px',
+                  border: '1px solid #ccc',
+                  backgroundColor: '#f0f0f0',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '5px',
+                }}
+              >
                 <i className="bi bi-globe"></i> Z reklamy
               </button>
-              <button data-value="przypadkowo" onClick={() => handleButtonClick('przypadkowo')}>
+              <button
+                data-value="przypadkowo"
+                onClick={() => handleButtonClick('przypadkowo')}
+                style={{
+                  padding: '10px 15px',
+                  borderRadius: '5px',
+                  border: '1px solid #ccc',
+                  backgroundColor: '#f0f0f0',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '5px',
+                }}
+              >
                 <i className="bi bi-7-circle-fill"></i> Przypadkowo
               </button>
-              <button data-value="inne" onClick={() => handleButtonClick('inne')}>
+              <button
+                data-value="inne"
+                onClick={() => handleButtonClick('inne')}
+                style={{
+                  padding: '10px 15px',
+                  borderRadius: '5px',
+                  border: '1px solid #ccc',
+                  backgroundColor: '#f0f0f0',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '5px',
+                }}
+              >
                 <i className="bi bi-file-earmark-break-fill"></i> Inne
               </button>
             </div>

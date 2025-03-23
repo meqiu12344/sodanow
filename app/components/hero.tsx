@@ -7,8 +7,8 @@ const hero = () => {
   return (
     <section className={style.hero}>
         <div className={style.hero_content}>
-            <h1>Wymiana butli CO<sub>2</sub> SodaStream? <br /> Szybko, łatwo, wygodnie!</h1>
-            <p>Jesteśmy Twoim lokalnym punktem wymiany butli CO<sub>2</sub> do urządzeń SodaStream. Zapewniamy szybką i wygodną wymianę pustych butli na pełne, abyś mógł cieszyć się ulubionym napojem gazowanym bez zbędnych przestojów.</p>
+            <h1>Wymiana butli CO<sub>2</sub> do saturatorów wody  <br /> Szybko, łatwo, wygodnie!</h1>
+            <p>Jesteśmy Twoim lokalnym punktem wymiany butli CO<sub>2</sub> do wszystkich saturatorów wody. Zapewniamy szybką i wygodną wymianę pustych butli na pełne, abyś mógł cieszyć się ulubionym napojem gazowanym bez zbędnych przestojów.</p>
         </div>
         <div className={style.hero_image}>
             <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@ const hero = () => {
                     style={{ transition: '0.3s' }}
                 />
             </svg>
-            <Image src={hero_image.src} alt="Butelki Soda Now" />
+            <img src={hero_image.src} alt="Butelki Soda Now" />
         </div>
     </section>
   )

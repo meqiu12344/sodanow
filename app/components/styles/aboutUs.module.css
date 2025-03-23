@@ -46,6 +46,19 @@
 
 .how_to_replace ol {
     padding-left: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.text li {
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 8px;
+    -webkit-box-shadow: 4px 4px 8px -1px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 4px 4px 8px -1px rgba(66, 68, 90, 1);
+    box-shadow: 4px 4px 8px -1px rgba(66, 68, 90, 1);
 }
 
 @media screen and (max-width: 1300px) {

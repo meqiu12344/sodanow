@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Image src={logo.src} alt="Soda Now Logo" />
+        <img src={logo.src} alt="Soda Now Logo" />
       </div>
 
       <nav className={styles['desktop-nav']}>
