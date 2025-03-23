@@ -32,7 +32,7 @@ const aboutUs = () => {
                             <li>✔️ Wieczorem otrzymasz dokładną godzinę – jeśli podasz np. <b>15:00–20:00</b>, a dostawa będzie o <b>17:00</b>, spodziewaj się jej między <b>16:30 a 17:30</b></li>
                         </ol>
                          
-                        🛠️ <b>Używamy wyłącznie gazu spożywczego</b> i wymieniamy butle nie tylko do SodaStream, ale także do innych saturatorów.
+                        🛠️ <b>Używamy wyłącznie gazu spożywczego</b> i wymieniamy butle do wszystkich saturatorów wody.
 
                         Ciesz się gazowaną wodą bez wychodzenia z domu! 🥤✨
                     </p>
