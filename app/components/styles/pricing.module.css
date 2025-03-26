@@ -1,6 +1,8 @@
 .pricing {
     padding: 80px 20px;
     text-align: center;
+
+    min-height: 100vh;
 }
 
 .pricing h2 {
