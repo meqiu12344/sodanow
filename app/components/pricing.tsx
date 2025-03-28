@@ -48,9 +48,7 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
-            <footer className={styles.footer}>
-                <p>Copyright 2025 - Mateusz Maniak</p>
-            </footer>
+
         </section>
 
     );
