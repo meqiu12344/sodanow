@@ -20,20 +20,6 @@ const Pricing = () => {
                     </div>
                 </div>
                 <div className={styles.pricingCard}>
-                    <div className={styles.price}>125 PLN</div>
-                    <div className={styles.per}>Przy zakupie 5 butli</div>
-                    <h3>Pakiet 5 + 1</h3>
-                    <ul>
-                        <li>Zamów 5 butle CO2, a szóstą otrzymasz gratis!</li>
-                        <li>Bezpłatny odbiór pustych butli</li>
-                        <li>Możliwość płatności gotówką przy odbiorze</li>
-                        <li>Dodatkowy rabat 10% na kolejne zamówienie</li>
-                    </ul>
-                    <div className={styles.buttonContainer}>
-                        <a href="tel:607877035" className={styles.callButton}>ZADZWOŃ</a>
-                    </div>
-                </div>
-                <div className={styles.pricingCard}>
                     <div className={styles.price}>75 PLN</div>
                     <div className={styles.per}>Przy zakupie 4 butli</div>
                     <h3>Pakiet 3 + 1</h3>
@@ -47,8 +33,26 @@ const Pricing = () => {
                         <a href="tel:607877035" className={styles.callButton}>ZADZWOŃ</a>
                     </div>
                 </div>
+                <div className={styles.pricingCard}>
+                    <div className={styles.price}>125 PLN</div>
+                    <div className={styles.per}>Przy zakupie 5 butli</div>
+                    <h3>Pakiet 5 + 1</h3>
+                    <ul>
+                        <li>Zamów 5 butle CO2, a szóstą otrzymasz gratis!</li>
+                        <li>Bezpłatny odbiór pustych butli</li>
+                        <li>Możliwość płatności gotówką przy odbiorze</li>
+                        <li>Dodatkowy rabat 10% na kolejne zamówienie</li>
+                    </ul>
+                    <div className={styles.buttonContainer}>
+                        <a href="tel:607877035" className={styles.callButton}>ZADZWOŃ</a>
+                    </div>
+                </div>
             </div>
+            <footer className={styles.footer}>
+                <p>Copyright 2025 - Mateusz Maniak</p>
+            </footer>
         </section>
+
     );
 };
 
