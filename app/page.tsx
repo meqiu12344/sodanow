@@ -18,9 +18,6 @@ const page = () => {
       <AboutUs />
       <Pricing />
       <How_to_replace />
-      <footer className="footer">
-        <p>Copyright 2025 - Mateusz Maniak</p>
-      </footer>
     </div>
   )
 }
