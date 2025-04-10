@@ -38,10 +38,25 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const companyName = 'SodaNow'; // Zmień na prawdziwą nazwę
+  const address = 'ul. Poziomkowa 25, 55-330 Wilkszyn'; // Zmień na prawdziwy adres
+  const phone = '+48 607 877 035'; // Zmień na prawdziwy numer telefonu
+  const email = 'kontakt@sodanow.pl'; // Zmień na prawdziwy adres e-mail
   return (
     <html lang="pl">
       <body>
         {children}
+        <footer>
+          <div className="container">
+            <p>&copy; {new Date().getFullYear()} {companyName}</p>
+            <address>
+              <strong>{companyName}</strong><br />
+              {address}<br />
+              Tel.: {phone}<br />
+              Email: <a href={`mailto:${email}`}>{email}</a>
+            </address>
+          </div>
+        </footer>
       </body>
     </html>
   );
